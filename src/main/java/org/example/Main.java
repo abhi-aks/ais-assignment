@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Create a Scanner object for user input
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in, "UTF-8");
 
         // Get user input for loan amount
         System.out.print("Enter Loan Amount: ");
