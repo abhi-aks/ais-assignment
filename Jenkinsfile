@@ -17,6 +17,13 @@ pipeline {
                 }
             }
         }
+        stage ('Pitest result') {
+                    steps {
+                        withMaven(maven : 'Maven3') {
+                            bat 'mvn org.pitest:pitest-maven:mutationCoverage'
+                        }
+                    }
+                }
         stage ('Install Stage') {
             steps {
                 withMaven(maven : 'Maven3') {
