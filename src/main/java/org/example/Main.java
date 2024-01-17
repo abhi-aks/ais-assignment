@@ -40,6 +40,6 @@ public class Main {
         // Calculate monthly payment using the loan amortization formula
         return loanAmount * (annualInterestRate / 12 / 100 * a) /(a - 1);
 
-        //helloo
+
     }
 }
