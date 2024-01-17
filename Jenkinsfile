@@ -18,6 +18,7 @@ pipeline {
                             bat 'mvn org.pitest:pitest-maven:mutationCoverage'
                     }
          }
+
         stage ('Install Stage') {
             steps {
                     bat 'mvn install'
