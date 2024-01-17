@@ -39,5 +39,7 @@ public class Main {
         double a = Math.pow(1 + annualInterestRate / 12 / 100, loanTermInMonths);
         // Calculate monthly payment using the loan amortization formula
         return loanAmount * (annualInterestRate / 12 / 100 * a) /(a - 1);
+
+        //helloo
     }
 }

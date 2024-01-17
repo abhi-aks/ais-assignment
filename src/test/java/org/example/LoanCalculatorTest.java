@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.example.Main.calculateMonthlyPayment;
 
+
 public class LoanCalculatorTest {
 
     @Test
